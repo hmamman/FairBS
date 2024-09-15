@@ -25,8 +25,6 @@ Code for the paper "Beyond the Seeds: Fairness Testing via Counterfactual Analys
 
 ## Running Fairness Testing
 
-The provided Python script is designed to run a fairness testing approach based on user-specified parameters. The script accepts several command-line arguments, which can be customized to control the dataset, classifier, sensitive parameter, and experiment duration.
-
 ### Command-Line Arguments
 
 The script accepts the following arguments:
@@ -45,7 +43,7 @@ The script accepts the following arguments:
 
 ### Example Usage
 
-To run a spacific fairness testing approach include in this repository:
+To run a specific fairness testing approach included in this repository:
 ```bash
 python fairbs.py --dataset_name census --sensitive_name age --classifier_name=dt
 ```
